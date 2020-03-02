@@ -1,0 +1,137 @@
+*{
+
+}
+
+body{
+overflow-x: hidden;
+width: 100%;
+margin: auto;
+height: auto;
+	}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('OpenSans.eot?#iefix')
+   format('embedded-opentype'),
+     url('../fonts/OpenSans.woff') format('woff'), 
+     url('../fonts/OpenSans.ttf')  format('truetype'),
+      url('../fonts/OpenSans.svg#OpenSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('../fonts/FuturaBT-Medium.woff2') format('woff2'),
+        url('../fonts/FuturaBT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.navbar{
+  background-color: #FD84B9;
+  font-family: 'Futura Md BT';
+  font-family: sans-serif;
+  width: 100%;
+  margin: auto;
+
+}
+
+.navbar-brand{
+  margin-right: 50px;
+}
+.navbar-nav a{
+  font-size: 14px;
+  margin-left: 15px;
+}
+.header-img img{
+  width: 100%;
+  height: auto;
+}
+#big-img{
+  background-color: #ECECEC;
+}
+#second-card{
+  background-color:#FD84B9; 
+}
+
+#third-row{
+  margin-top: 10px;
+  font-family: 'OpenSans';
+  font-family: sans-serif;
+  font-size: 13px;
+}
+#fourth-row{
+  margin-top: 30px;
+}
+#fourth-row h2,h4{
+  font-family: 'Futura Md BT';
+}
+#fourth-row p{
+  font-family: 'OpenSans';
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.pink-heading{
+  color:#FD84B9; 
+}
+#down-card{
+  margin-top: 20px;
+  height: 300px;
+  margin-bottom: 20px;
+  font-family: 'OpenSans';
+  font-family: sans-serif;
+  font-size: 14px;
+  background-color: #ebebeb;
+}
+.card-header{
+  background-color:#FD84B9; 
+}
+.list-group{
+  padding-top: 10px;
+  padding-left: 20px;
+  line-height: 10px;
+}
+li {
+    list-style-type: none;
+}
+.fa {
+padding: 5px;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-top: 20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+#links{
+  font-family: 'OpenSans';
+  font-family: sans-serif;
+  font-size: 14px;
+}
+#mission{
+  margin-top: 20px;
+}
+
+footer{
+  font-family: 'OpenSans';
+  font-family: sans-serif;
+  background-color:#FD84B9; 
+}
+#dr-img{
+  border:5px solid #478ce3;
+  box-shadow:         0px 0px 1px 1px #ccc;
+}
+
+@media only screen and (max-width: 768px) {
+  #social{
+    margin-left: -70px;
+  }
+  }
